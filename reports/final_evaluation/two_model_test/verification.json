@@ -1,0 +1,13 @@
+{
+  "all_checks_passed": true,
+  "checkpoint_configurations": 40,
+  "shared_test_episodes": 12000,
+  "episode_metric_records": 24000,
+  "seed_metric_records": 40,
+  "prediction_metrics_recomputed": true,
+  "sample_sd_and_paired_t_ci_verified": true,
+  "existing_files_hash_verified": 235,
+  "additional_model_evaluation": false,
+  "training": false,
+  "tuning": false
+}

@@ -1,0 +1,52 @@
+{
+  "selection_metric": "mean validation Macro-F1 averaged equally over five seeds and four shot settings",
+  "candidate_scales": [
+    0.0,
+    0.01,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "validation_aggregate": [
+    {
+      "scale_factor": 0.0,
+      "mean_accuracy_over_seed_shot": 0.7134916666666664,
+      "mean_macro_f1_over_seed_shot": 0.6882062541564157
+    },
+    {
+      "scale_factor": 0.01,
+      "mean_accuracy_over_seed_shot": 0.7122416666666667,
+      "mean_macro_f1_over_seed_shot": 0.6868036307089038
+    },
+    {
+      "scale_factor": 0.05,
+      "mean_accuracy_over_seed_shot": 0.6888583333333334,
+      "mean_macro_f1_over_seed_shot": 0.6515071950695054
+    },
+    {
+      "scale_factor": 0.1,
+      "mean_accuracy_over_seed_shot": 0.6567416666666668,
+      "mean_macro_f1_over_seed_shot": 0.6027100023413172
+    },
+    {
+      "scale_factor": 0.25,
+      "mean_accuracy_over_seed_shot": 0.5919666666666665,
+      "mean_macro_f1_over_seed_shot": 0.5021832232392283
+    },
+    {
+      "scale_factor": 0.5,
+      "mean_accuracy_over_seed_shot": 0.5709083333333334,
+      "mean_macro_f1_over_seed_shot": 0.47045253249225266
+    },
+    {
+      "scale_factor": 1.0,
+      "mean_accuracy_over_seed_shot": 0.5612249999999999,
+      "mean_macro_f1_over_seed_shot": 0.4559989008632467
+    }
+  ],
+  "selected_scale": 0.0,
+  "selected_validation_mean_macro_f1": 0.6882062541564157,
+  "selected_validation_mean_accuracy": 0.7134916666666664
+}

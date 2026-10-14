@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "protocol": "revised_self_supervised_3_2_2",
+  "split": {
+    "train": [
+      0,
+      1,
+      2
+    ],
+    "validation": [
+      3,
+      4
+    ],
+    "test": [
+      5,
+      6
+    ]
+  },
+  "protocol_seed": 2026,
+  "run_seed": 11,
+  "shot": 1,
+  "pretraining_loss": 0.9754329919815063,
+  "best_epoch": 2,
+  "best_validation_loss": 0.760108490784963,
+  "smoke_test_metrics": {
+    "episodes": 3,
+    "accuracy_mean": 0.5,
+    "accuracy_std_episode": 0.0,
+    "macro_f1_mean": 0.3333333333333333,
+    "macro_f1_std_episode": 0.0
+  },
+  "projection_checkpoint_reload_logits_identical": true,
+  "frozen_gcn": true,
+  "frozen_scibert": true,
+  "runtime_seconds_including_model_load": 5.152456399984658,
+  "device": "cpu"
+}

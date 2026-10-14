@@ -1,0 +1,1426 @@
+{
+  "required_configurations": 40,
+  "all_valid": true,
+  "rows": [
+    {
+      "model": "NoPrompt",
+      "seed": 11,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 11,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03637046366930008
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 11,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 11,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03637046366930008
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 11,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 11,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03637046366930008
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 11,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 11,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03637046366930008
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 23,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 23,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03749354928731918
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 23,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 23,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03749354928731918
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 23,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 23,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03749354928731918
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 23,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 23,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03749354928731918
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 37,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 37,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.037410542368888855
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 37,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 37,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.037410542368888855
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 37,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 37,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.037410542368888855
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 37,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 37,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.037410542368888855
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 53,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 53,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03513486683368683
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 53,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 53,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03513486683368683
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 53,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 53,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03513486683368683
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 53,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 53,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03513486683368683
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 71,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 71,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03609917685389519
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 71,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 71,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03609917685389519
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 71,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 71,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03609917685389519
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 71,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 71,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03609917685389519
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 11,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/shot_1_seed_11_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "f28451bef7002e95258384ed7de6bd28c03eb387b339c9c25811813cb1f18c5a",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 11,
+        "shot": 1,
+        "best_epoch": 1,
+        "best_validation_loss": 0.6931859850883484,
+        "best_validation_accuracy": 0.514444449543953,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 11,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/shot_3_seed_11_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "7fdf974359eb47bd95958ca8baba3a9e0cc3ed46d1fefa060a783a081c87b853",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 11,
+        "shot": 3,
+        "best_epoch": 6,
+        "best_validation_loss": 0.6838777105013529,
+        "best_validation_accuracy": 0.7200000027815501,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 11,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/shot_5_seed_11_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "9774488e145b5fb4dc4c8046a81a3c17b1f47c2fa3aaace048cd90cf39fe5801",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 11,
+        "shot": 5,
+        "best_epoch": 1,
+        "best_validation_loss": 0.6935534338156383,
+        "best_validation_accuracy": 0.5111111144224803,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 11,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/shot_10_seed_11_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "a9377df0ad561a2780637f0a29dd443d2f17607464f6f4da050e97b30724eb47",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 11,
+        "shot": 10,
+        "best_epoch": 4,
+        "best_validation_loss": 0.6924174785614013,
+        "best_validation_accuracy": 0.5266666700442632,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 23,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/shot_1_seed_23_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "1cb2b67f6672830de0bf97741505fdc0dbddc317f558833b5882770b863feb1b",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 23,
+        "shot": 1,
+        "best_epoch": 1,
+        "best_validation_loss": 0.6996092995007833,
+        "best_validation_accuracy": 0.5000000029802323,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 23,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/shot_3_seed_23_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "1dc379e5e6440c0f61113dfaf77fd35916d514fbfda690e9d80ccc392898a2f9",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 23,
+        "shot": 3,
+        "best_epoch": 1,
+        "best_validation_loss": 0.6973022441069285,
+        "best_validation_accuracy": 0.48000000417232513,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 23,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/shot_5_seed_23_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "e3f91a737758beca47b5277abaac14f565514ce107229cb3907acadd34ec28c8",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 23,
+        "shot": 5,
+        "best_epoch": 4,
+        "best_validation_loss": 0.707509583234787,
+        "best_validation_accuracy": 0.4877777804931005,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 23,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/shot_10_seed_23_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "a9098b354e80042864ced128147215b81ba36dc47030dc118ffc39a9358d5d38",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 23,
+        "shot": 10,
+        "best_epoch": 18,
+        "best_validation_loss": 0.699174952507019,
+        "best_validation_accuracy": 0.4677777831753095,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 37,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/shot_1_seed_37_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "9a71f87c0fb1f151c7225350b022fb25a6c9c50859da047580269bdf0611fd20",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 37,
+        "shot": 1,
+        "best_epoch": 7,
+        "best_validation_loss": 0.6857826729615529,
+        "best_validation_accuracy": 0.59777778784434,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 37,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/shot_3_seed_37_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "233b81f1f9fb8945b46d199f44994ea92f65090d44221af40442c75266ec0212",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 37,
+        "shot": 3,
+        "best_epoch": 3,
+        "best_validation_loss": 0.6857592821121216,
+        "best_validation_accuracy": 0.6811111181974411,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 37,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/shot_5_seed_37_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "5c24b08778fb2327c8f8677a93377a5f2c8b71d66c716166768967dba9fb20f6",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 37,
+        "shot": 5,
+        "best_epoch": 10,
+        "best_validation_loss": 0.6934988379478455,
+        "best_validation_accuracy": 0.5122222284475962,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 37,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/shot_10_seed_37_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "887cc18d1c4628c77115acd16e53c6d3a4a3eab2bfafb2a48dcdec6c238f559e",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 37,
+        "shot": 10,
+        "best_epoch": 4,
+        "best_validation_loss": 0.6876207848389944,
+        "best_validation_accuracy": 0.5366666783889135,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 53,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/shot_1_seed_53_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "ddecc37311d37fc4d287c542f96ab3e31adbf00670d9b27303eb2968f49eb050",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 53,
+        "shot": 1,
+        "best_epoch": 5,
+        "best_validation_loss": 0.7046479721864064,
+        "best_validation_accuracy": 0.4955555568138758,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 53,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/shot_3_seed_53_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "3be3bc5bf5dfba80a534a374822fb658de433cc01d7a57cd8b0e517387aefdd2",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 53,
+        "shot": 3,
+        "best_epoch": 2,
+        "best_validation_loss": 0.6827524602413177,
+        "best_validation_accuracy": 0.7311111132303874,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 53,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/shot_5_seed_53_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "664ca032c32e9711b833d09fda4c1da7ad935fa66a9c84564bbce4ebb7cebe50",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 53,
+        "shot": 5,
+        "best_epoch": 1,
+        "best_validation_loss": 0.7004482686519623,
+        "best_validation_accuracy": 0.48777778446674347,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 53,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/shot_10_seed_53_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "bc6c0a8f79ecad161c453c97fe9ba8b4e8aaf6a89af9985b0fd78358a456c19c",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 53,
+        "shot": 10,
+        "best_epoch": 2,
+        "best_validation_loss": 0.6945934136708577,
+        "best_validation_accuracy": 0.5288888961076736,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 71,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/shot_1_seed_71_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "ba9105f4042cb55263bff3161d8883b0d1336a69a98f6cce8e5912d984d9adc7",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 71,
+        "shot": 1,
+        "best_epoch": 3,
+        "best_validation_loss": 0.6962190091609954,
+        "best_validation_accuracy": 0.5044444481531779,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 71,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/shot_3_seed_71_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "a8542d3f9fabf30c5c0b6e2b3d71088238f5f319c4d7e965c433d04bb207aaca",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 71,
+        "shot": 3,
+        "best_epoch": 16,
+        "best_validation_loss": 0.6852231820424398,
+        "best_validation_accuracy": 0.7,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 71,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/shot_5_seed_71_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "2198e9d1a80f79c44a367269dba3cc5d29851e1c202f8a8be7354ac9de201a2d",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 71,
+        "shot": 5,
+        "best_epoch": 9,
+        "best_validation_loss": 0.6847346345583598,
+        "best_validation_accuracy": 0.7066666662693024,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 71,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/shot_10_seed_71_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "1f386991e726c25cc9be932b3a01752d308ad194c140e7769e43ec06a55c99e4",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 71,
+        "shot": 10,
+        "best_epoch": 9,
+        "best_validation_loss": 0.6897512237230937,
+        "best_validation_accuracy": 0.5400000075499217,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    }
+  ]
+}

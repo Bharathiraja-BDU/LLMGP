@@ -1,0 +1,103 @@
+{
+  "records": [
+    {
+      "episode": 0,
+      "loss": 0.6197111010551453,
+      "accuracy": 0.5333333611488342,
+      "gradient_norm": 1.8616458177566528,
+      "weight_change": 0.0010000001639127731,
+      "support_overlap_query": false,
+      "trainable_params": 1101977
+    },
+    {
+      "episode": 1,
+      "loss": 0.7923757433891296,
+      "accuracy": 0.5333333611488342,
+      "gradient_norm": 3.0712826251983643,
+      "weight_change": 0.0010013580322265625,
+      "support_overlap_query": false,
+      "trainable_params": 1101977
+    },
+    {
+      "episode": 2,
+      "loss": 0.48788687586784363,
+      "accuracy": 0.9666666388511658,
+      "gradient_norm": 0.4472949504852295,
+      "weight_change": 0.001003604382276535,
+      "support_overlap_query": false,
+      "trainable_params": 1101977
+    },
+    {
+      "episode": 3,
+      "loss": 0.4958648383617401,
+      "accuracy": 0.7333333492279053,
+      "gradient_norm": 0.5528141856193542,
+      "weight_change": 0.0010067112743854523,
+      "support_overlap_query": false,
+      "trainable_params": 1101977
+    },
+    {
+      "episode": 4,
+      "loss": 0.5827955603599548,
+      "accuracy": 0.5,
+      "gradient_norm": 0.7891740798950195,
+      "weight_change": 0.0010098025668412447,
+      "support_overlap_query": false,
+      "trainable_params": 1101977
+    },
+    {
+      "episode": 5,
+      "loss": 0.5497100949287415,
+      "accuracy": 0.5666666626930237,
+      "gradient_norm": 0.6818675398826599,
+      "weight_change": 0.0010083205997943878,
+      "support_overlap_query": false,
+      "trainable_params": 1101977
+    },
+    {
+      "episode": 6,
+      "loss": 0.43842706084251404,
+      "accuracy": 0.8666666746139526,
+      "gradient_norm": 0.20638926327228546,
+      "weight_change": 0.0009767580777406693,
+      "support_overlap_query": false,
+      "trainable_params": 1101977
+    },
+    {
+      "episode": 7,
+      "loss": 0.329027384519577,
+      "accuracy": 1.0,
+      "gradient_norm": 0.26484987139701843,
+      "weight_change": 0.0009638071060180664,
+      "support_overlap_query": false,
+      "trainable_params": 1101977
+    },
+    {
+      "episode": 8,
+      "loss": 0.3919270932674408,
+      "accuracy": 0.8999999761581421,
+      "gradient_norm": 0.21171452105045319,
+      "weight_change": 0.0009377151727676392,
+      "support_overlap_query": false,
+      "trainable_params": 1101977
+    },
+    {
+      "episode": 9,
+      "loss": 0.3956463932991028,
+      "accuracy": 0.9333333373069763,
+      "gradient_norm": 0.34137049317359924,
+      "weight_change": 0.0009566247463226318,
+      "support_overlap_query": false,
+      "trainable_params": 1101977
+    }
+  ],
+  "mean_loss": 0.508337214589119,
+  "mean_accuracy": 0.7533333361148834,
+  "mean_gradient_norm": 0.8428403347730636,
+  "total_runtime_seconds": 0.651392936706543,
+  "inference_accuracy": 0.9666666388511658,
+  "no_grad_inference_accuracy": 0.9666666388511658,
+  "projection_weight_changed": true,
+  "trainable_parameter_count": 1101977,
+  "device": "cpu"
+}

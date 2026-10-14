@@ -1,0 +1,3269 @@
+{
+  "status": "completed_inference_only_two_model_test",
+  "protocol": "revised_self_supervised_3_2_2",
+  "class_split": {
+    "train": [
+      0,
+      1,
+      2
+    ],
+    "validation": [
+      3,
+      4
+    ],
+    "test": [
+      5,
+      6
+    ]
+  },
+  "seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "shots": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "models": [
+    "NoPrompt",
+    "V1"
+  ],
+  "episodes_per_seed_shot": 600,
+  "query_per_class": 15,
+  "temperature": 0.1,
+  "seed_metrics": [
+    {
+      "seed": 11,
+      "shot": 1,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.588222228884697,
+      "macro_f1": 0.5167638798314724,
+      "episode_set_sha256": "7786d9a4744a68ea1a917fdad769b9048ba47bbcbb21e32f3d0a7f13543e1f1c",
+      "gcn_checkpoint_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 11,
+      "shot": 1,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.49444444946944716,
+      "macro_f1": 0.3922080111556947,
+      "episode_set_sha256": "7786d9a4744a68ea1a917fdad769b9048ba47bbcbb21e32f3d0a7f13543e1f1c",
+      "gcn_checkpoint_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "prompt_checkpoint_sha256": "f28451bef7002e95258384ed7de6bd28c03eb387b339c9c25811813cb1f18c5a"
+    },
+    {
+      "seed": 11,
+      "shot": 3,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.702611113190651,
+      "macro_f1": 0.6829536671733627,
+      "episode_set_sha256": "b239f573ebc8128a0bf8655848729f3806a602b56162e5ee95a24d1710022491",
+      "gcn_checkpoint_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 11,
+      "shot": 3,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.6987777814765771,
+      "macro_f1": 0.6776947054252052,
+      "episode_set_sha256": "b239f573ebc8128a0bf8655848729f3806a602b56162e5ee95a24d1710022491",
+      "gcn_checkpoint_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "prompt_checkpoint_sha256": "7fdf974359eb47bd95958ca8baba3a9e0cc3ed46d1fefa060a783a081c87b853"
+    },
+    {
+      "seed": 11,
+      "shot": 5,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.7459444437424342,
+      "macro_f1": 0.7363595864407302,
+      "episode_set_sha256": "7b7b5f515dcd22d41f319d0da552bb65e8d9754fdf776814dd78b1f2141abc74",
+      "gcn_checkpoint_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 11,
+      "shot": 5,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.5230000072220962,
+      "macro_f1": 0.3961590781722785,
+      "episode_set_sha256": "7b7b5f515dcd22d41f319d0da552bb65e8d9754fdf776814dd78b1f2141abc74",
+      "gcn_checkpoint_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "prompt_checkpoint_sha256": "9774488e145b5fb4dc4c8046a81a3c17b1f47c2fa3aaace048cd90cf39fe5801"
+    },
+    {
+      "seed": 11,
+      "shot": 10,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.7919999966025353,
+      "macro_f1": 0.788321872683962,
+      "episode_set_sha256": "a3f0e7aede19a44c8212a89e1ac5bf484ccf99589bd63ea2f218329fe5764d16",
+      "gcn_checkpoint_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 11,
+      "shot": 10,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.5399444542825222,
+      "macro_f1": 0.42860178063261545,
+      "episode_set_sha256": "a3f0e7aede19a44c8212a89e1ac5bf484ccf99589bd63ea2f218329fe5764d16",
+      "gcn_checkpoint_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "prompt_checkpoint_sha256": "a9377df0ad561a2780637f0a29dd443d2f17607464f6f4da050e97b30724eb47"
+    },
+    {
+      "seed": 23,
+      "shot": 1,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.6052222281694413,
+      "macro_f1": 0.5314290313496084,
+      "episode_set_sha256": "fb607c976cccd2a65601825908d4331cde8a01646d10e7bd0ad7487dcac29542",
+      "gcn_checkpoint_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 23,
+      "shot": 1,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.5131666716933251,
+      "macro_f1": 0.37964389102508167,
+      "episode_set_sha256": "fb607c976cccd2a65601825908d4331cde8a01646d10e7bd0ad7487dcac29542",
+      "gcn_checkpoint_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "prompt_checkpoint_sha256": "1cb2b67f6672830de0bf97741505fdc0dbddc317f558833b5882770b863feb1b"
+    },
+    {
+      "seed": 23,
+      "shot": 3,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.7304444460074107,
+      "macro_f1": 0.7126247279101948,
+      "episode_set_sha256": "030820cf088f7506d1e7a1565f72aab82e0c816f6e5edaab6bbf960c4f8b1317",
+      "gcn_checkpoint_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 23,
+      "shot": 3,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.5338333404064178,
+      "macro_f1": 0.41014783530538185,
+      "episode_set_sha256": "030820cf088f7506d1e7a1565f72aab82e0c816f6e5edaab6bbf960c4f8b1317",
+      "gcn_checkpoint_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "prompt_checkpoint_sha256": "1dc379e5e6440c0f61113dfaf77fd35916d514fbfda690e9d80ccc392898a2f9"
+    },
+    {
+      "seed": 23,
+      "shot": 5,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.7786111084620158,
+      "macro_f1": 0.7703543667904386,
+      "episode_set_sha256": "0999b7be51c52fdbd0af4052666d9508e791508449a80b7ec4a11d106f57f822",
+      "gcn_checkpoint_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 23,
+      "shot": 5,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.5285000072916349,
+      "macro_f1": 0.3925620712778851,
+      "episode_set_sha256": "0999b7be51c52fdbd0af4052666d9508e791508449a80b7ec4a11d106f57f822",
+      "gcn_checkpoint_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "prompt_checkpoint_sha256": "e3f91a737758beca47b5277abaac14f565514ce107229cb3907acadd34ec28c8"
+    },
+    {
+      "seed": 23,
+      "shot": 10,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.8218888836105664,
+      "macro_f1": 0.8181321781860184,
+      "episode_set_sha256": "6c5f74c093ea5b3eb140fbe34a4f6c4c4e43b2f5a18177c4413fad469b6ca577",
+      "gcn_checkpoint_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 23,
+      "shot": 10,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.5487222321828207,
+      "macro_f1": 0.43029732124682424,
+      "episode_set_sha256": "6c5f74c093ea5b3eb140fbe34a4f6c4c4e43b2f5a18177c4413fad469b6ca577",
+      "gcn_checkpoint_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "prompt_checkpoint_sha256": "a9098b354e80042864ced128147215b81ba36dc47030dc118ffc39a9358d5d38"
+    },
+    {
+      "seed": 37,
+      "shot": 1,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.6396111154804627,
+      "macro_f1": 0.5782351685624405,
+      "episode_set_sha256": "d27230a3c69dc7cce0f75583e6ceca4b445e2723da0be6870e7dcfc81b195841",
+      "gcn_checkpoint_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 37,
+      "shot": 1,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.6535555601368348,
+      "macro_f1": 0.6001586943528213,
+      "episode_set_sha256": "d27230a3c69dc7cce0f75583e6ceca4b445e2723da0be6870e7dcfc81b195841",
+      "gcn_checkpoint_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "prompt_checkpoint_sha256": "9a71f87c0fb1f151c7225350b022fb25a6c9c50859da047580269bdf0611fd20"
+    },
+    {
+      "seed": 37,
+      "shot": 3,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.7468333320816358,
+      "macro_f1": 0.7305028196922378,
+      "episode_set_sha256": "8368ce2671385263f17940b01a15b5b834861fe43510e03cc3bfc8967b2cd958",
+      "gcn_checkpoint_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 37,
+      "shot": 3,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.7488333334525427,
+      "macro_f1": 0.7310756043086726,
+      "episode_set_sha256": "8368ce2671385263f17940b01a15b5b834861fe43510e03cc3bfc8967b2cd958",
+      "gcn_checkpoint_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "prompt_checkpoint_sha256": "233b81f1f9fb8945b46d199f44994ea92f65090d44221af40442c75266ec0212"
+    },
+    {
+      "seed": 37,
+      "shot": 5,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.7945555526018143,
+      "macro_f1": 0.787460873133185,
+      "episode_set_sha256": "9993a11f69c48248d5879a7cd191ad9fe6eb620e2db6857e3a07f50ea19a0360",
+      "gcn_checkpoint_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 37,
+      "shot": 5,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.5446666752298673,
+      "macro_f1": 0.42059417524711673,
+      "episode_set_sha256": "9993a11f69c48248d5879a7cd191ad9fe6eb620e2db6857e3a07f50ea19a0360",
+      "gcn_checkpoint_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "prompt_checkpoint_sha256": "5c24b08778fb2327c8f8677a93377a5f2c8b71d66c716166768967dba9fb20f6"
+    },
+    {
+      "seed": 37,
+      "shot": 10,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.8387222171823183,
+      "macro_f1": 0.8357976564323588,
+      "episode_set_sha256": "fcb676d54606a85929985167265e69ce1161f4cfe64d0b6984078e76a1291857",
+      "gcn_checkpoint_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 37,
+      "shot": 10,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.6010555632909139,
+      "macro_f1": 0.5101652655111271,
+      "episode_set_sha256": "fcb676d54606a85929985167265e69ce1161f4cfe64d0b6984078e76a1291857",
+      "gcn_checkpoint_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "prompt_checkpoint_sha256": "887cc18d1c4628c77115acd16e53c6d3a4a3eab2bfafb2a48dcdec6c238f559e"
+    },
+    {
+      "seed": 53,
+      "shot": 1,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.60427778378129,
+      "macro_f1": 0.5328853912386748,
+      "episode_set_sha256": "1e36a34c01de2db8821cda8eddb43ef71e97e32dc285cda1be945f9ff9eda830",
+      "gcn_checkpoint_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 53,
+      "shot": 1,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.5071666712065538,
+      "macro_f1": 0.35858074291544234,
+      "episode_set_sha256": "1e36a34c01de2db8821cda8eddb43ef71e97e32dc285cda1be945f9ff9eda830",
+      "gcn_checkpoint_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "prompt_checkpoint_sha256": "ddecc37311d37fc4d287c542f96ab3e31adbf00670d9b27303eb2968f49eb050"
+    },
+    {
+      "seed": 53,
+      "shot": 3,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.7091666694482167,
+      "macro_f1": 0.6890334165390749,
+      "episode_set_sha256": "efb7bc2805e30715930fe2442113330f4b72f23ef6bbc66bf3fde40c9a764528",
+      "gcn_checkpoint_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 53,
+      "shot": 3,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.7095555578172207,
+      "macro_f1": 0.6879415434538898,
+      "episode_set_sha256": "efb7bc2805e30715930fe2442113330f4b72f23ef6bbc66bf3fde40c9a764528",
+      "gcn_checkpoint_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "prompt_checkpoint_sha256": "3be3bc5bf5dfba80a534a374822fb658de433cc01d7a57cd8b0e517387aefdd2"
+    },
+    {
+      "seed": 53,
+      "shot": 5,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.7587222217023373,
+      "macro_f1": 0.7491097139567421,
+      "episode_set_sha256": "421228a8c54f98cf8953a82a18599947b3d017ededba62f2ff2851d41ba489f2",
+      "gcn_checkpoint_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 53,
+      "shot": 5,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.530388897806406,
+      "macro_f1": 0.40096285224166517,
+      "episode_set_sha256": "421228a8c54f98cf8953a82a18599947b3d017ededba62f2ff2851d41ba489f2",
+      "gcn_checkpoint_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "prompt_checkpoint_sha256": "664ca032c32e9711b833d09fda4c1da7ad935fa66a9c84564bbce4ebb7cebe50"
+    },
+    {
+      "seed": 53,
+      "shot": 10,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.8077222188313802,
+      "macro_f1": 0.8037816652636836,
+      "episode_set_sha256": "beaf5cf2f9adf8dc282edb23781b05ab8832ee100299f3e412afa25e7e61f81b",
+      "gcn_checkpoint_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 53,
+      "shot": 10,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.5413888969520728,
+      "macro_f1": 0.41693280059727084,
+      "episode_set_sha256": "beaf5cf2f9adf8dc282edb23781b05ab8832ee100299f3e412afa25e7e61f81b",
+      "gcn_checkpoint_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "prompt_checkpoint_sha256": "bc6c0a8f79ecad161c453c97fe9ba8b4e8aaf6a89af9985b0fd78358a456c19c"
+    },
+    {
+      "seed": 71,
+      "shot": 1,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.6245000050216913,
+      "macro_f1": 0.5574501214720855,
+      "episode_set_sha256": "3f9ebc85f063ba4bd14638a5d54a67b869151f285eae1a4263f2146bb45a7f13",
+      "gcn_checkpoint_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 71,
+      "shot": 1,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.5199444485207398,
+      "macro_f1": 0.3737414577703925,
+      "episode_set_sha256": "3f9ebc85f063ba4bd14638a5d54a67b869151f285eae1a4263f2146bb45a7f13",
+      "gcn_checkpoint_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "prompt_checkpoint_sha256": "ba9105f4042cb55263bff3161d8883b0d1336a69a98f6cce8e5912d984d9adc7"
+    },
+    {
+      "seed": 71,
+      "shot": 3,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.7572777771949768,
+      "macro_f1": 0.741778006070202,
+      "episode_set_sha256": "f8edf444b7ac9d918b312d0e9d8113864d635c8967087cf5977f58b758717e1b",
+      "gcn_checkpoint_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 71,
+      "shot": 3,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.7529444446166357,
+      "macro_f1": 0.7358501976572355,
+      "episode_set_sha256": "f8edf444b7ac9d918b312d0e9d8113864d635c8967087cf5977f58b758717e1b",
+      "gcn_checkpoint_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "prompt_checkpoint_sha256": "a8542d3f9fabf30c5c0b6e2b3d71088238f5f319c4d7e965c433d04bb207aaca"
+    },
+    {
+      "seed": 71,
+      "shot": 5,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.8056666639447212,
+      "macro_f1": 0.7981214744698705,
+      "episode_set_sha256": "00d76096a190fe1f6e75be2d39e2e3975f4d87cbb376b4c6a42995da38c54774",
+      "gcn_checkpoint_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 71,
+      "shot": 5,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.7804444423317909,
+      "macro_f1": 0.7666458167581305,
+      "episode_set_sha256": "00d76096a190fe1f6e75be2d39e2e3975f4d87cbb376b4c6a42995da38c54774",
+      "gcn_checkpoint_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "prompt_checkpoint_sha256": "2198e9d1a80f79c44a367269dba3cc5d29851e1c202f8a8be7354ac9de201a2d"
+    },
+    {
+      "seed": 71,
+      "shot": 10,
+      "model": "NoPrompt",
+      "episodes": 600,
+      "accuracy": 0.8544444384177526,
+      "macro_f1": 0.8519612459306954,
+      "episode_set_sha256": "3101ff7feaf35739ecffd1282c3e90672b2eb5ff1340fc71590ce51e8599f55b",
+      "gcn_checkpoint_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "prompt_checkpoint_sha256": ""
+    },
+    {
+      "seed": 71,
+      "shot": 10,
+      "model": "V1",
+      "episodes": 600,
+      "accuracy": 0.5920555630326271,
+      "macro_f1": 0.504740372971933,
+      "episode_set_sha256": "3101ff7feaf35739ecffd1282c3e90672b2eb5ff1340fc71590ce51e8599f55b",
+      "gcn_checkpoint_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "prompt_checkpoint_sha256": "1f386991e726c25cc9be932b3a01752d308ad194c140e7769e43ec06a55c99e4"
+    }
+  ],
+  "paired_seed_differences": [
+    {
+      "seed": 11,
+      "shot": 1,
+      "accuracy_difference_v1_minus_noprompt": -0.09377777941524983,
+      "macro_f1_difference_v1_minus_noprompt": -0.12455586867577778
+    },
+    {
+      "seed": 11,
+      "shot": 3,
+      "accuracy_difference_v1_minus_noprompt": -0.0038333317140738167,
+      "macro_f1_difference_v1_minus_noprompt": -0.005258961748157452
+    },
+    {
+      "seed": 11,
+      "shot": 5,
+      "accuracy_difference_v1_minus_noprompt": -0.22294443652033805,
+      "macro_f1_difference_v1_minus_noprompt": -0.3402005082684517
+    },
+    {
+      "seed": 11,
+      "shot": 10,
+      "accuracy_difference_v1_minus_noprompt": -0.25205554232001304,
+      "macro_f1_difference_v1_minus_noprompt": -0.3597200920513466
+    },
+    {
+      "seed": 23,
+      "shot": 1,
+      "accuracy_difference_v1_minus_noprompt": -0.09205555647611618,
+      "macro_f1_difference_v1_minus_noprompt": -0.15178514032452683
+    },
+    {
+      "seed": 23,
+      "shot": 3,
+      "accuracy_difference_v1_minus_noprompt": -0.19661110560099285,
+      "macro_f1_difference_v1_minus_noprompt": -0.302476892604813
+    },
+    {
+      "seed": 23,
+      "shot": 5,
+      "accuracy_difference_v1_minus_noprompt": -0.25011110117038093,
+      "macro_f1_difference_v1_minus_noprompt": -0.37779229551255344
+    },
+    {
+      "seed": 23,
+      "shot": 10,
+      "accuracy_difference_v1_minus_noprompt": -0.2731666514277458,
+      "macro_f1_difference_v1_minus_noprompt": -0.3878348569391941
+    },
+    {
+      "seed": 37,
+      "shot": 1,
+      "accuracy_difference_v1_minus_noprompt": 0.01394444465637207,
+      "macro_f1_difference_v1_minus_noprompt": 0.021923525790380895
+    },
+    {
+      "seed": 37,
+      "shot": 3,
+      "accuracy_difference_v1_minus_noprompt": 0.00200000137090683,
+      "macro_f1_difference_v1_minus_noprompt": 0.0005727846164347701
+    },
+    {
+      "seed": 37,
+      "shot": 5,
+      "accuracy_difference_v1_minus_noprompt": -0.24988887737194698,
+      "macro_f1_difference_v1_minus_noprompt": -0.3668666978860683
+    },
+    {
+      "seed": 37,
+      "shot": 10,
+      "accuracy_difference_v1_minus_noprompt": -0.23766665389140448,
+      "macro_f1_difference_v1_minus_noprompt": -0.32563239092123175
+    },
+    {
+      "seed": 53,
+      "shot": 1,
+      "accuracy_difference_v1_minus_noprompt": -0.09711111257473627,
+      "macro_f1_difference_v1_minus_noprompt": -0.17430464832323259
+    },
+    {
+      "seed": 53,
+      "shot": 3,
+      "accuracy_difference_v1_minus_noprompt": 0.0003888883690039317,
+      "macro_f1_difference_v1_minus_noprompt": -0.0010918730851850937
+    },
+    {
+      "seed": 53,
+      "shot": 5,
+      "accuracy_difference_v1_minus_noprompt": -0.22833332389593125,
+      "macro_f1_difference_v1_minus_noprompt": -0.34814686171507697
+    },
+    {
+      "seed": 53,
+      "shot": 10,
+      "accuracy_difference_v1_minus_noprompt": -0.2663333218793074,
+      "macro_f1_difference_v1_minus_noprompt": -0.3868488646664127
+    },
+    {
+      "seed": 71,
+      "shot": 1,
+      "accuracy_difference_v1_minus_noprompt": -0.10455555650095145,
+      "macro_f1_difference_v1_minus_noprompt": -0.18370866370169292
+    },
+    {
+      "seed": 71,
+      "shot": 3,
+      "accuracy_difference_v1_minus_noprompt": -0.004333332578341166,
+      "macro_f1_difference_v1_minus_noprompt": -0.005927808412966431
+    },
+    {
+      "seed": 71,
+      "shot": 5,
+      "accuracy_difference_v1_minus_noprompt": -0.025222221612930296,
+      "macro_f1_difference_v1_minus_noprompt": -0.03147565771173993
+    },
+    {
+      "seed": 71,
+      "shot": 10,
+      "accuracy_difference_v1_minus_noprompt": -0.26238887538512545,
+      "macro_f1_difference_v1_minus_noprompt": -0.3472208729587625
+    }
+  ],
+  "aggregate_metrics": [
+    {
+      "shot": 1,
+      "model": "NoPrompt",
+      "seeds": 5,
+      "episodes_per_seed": 600,
+      "accuracy_mean": 0.6123666722675165,
+      "accuracy_sample_sd": 0.019930534327924368,
+      "accuracy_ci95_lower": 0.5876196453275686,
+      "accuracy_ci95_upper": 0.6371136992074644,
+      "macro_f1_mean": 0.5433527184908564,
+      "macro_f1_sample_sd": 0.024363023672735608,
+      "macro_f1_ci95_lower": 0.5131020291090346,
+      "macro_f1_ci95_upper": 0.5736034078726783
+    },
+    {
+      "shot": 1,
+      "model": "V1",
+      "seeds": 5,
+      "episodes_per_seed": 600,
+      "accuracy_mean": 0.5376555602053801,
+      "accuracy_sample_sd": 0.06546558554918125,
+      "accuracy_ci95_lower": 0.4563692995076331,
+      "accuracy_ci95_upper": 0.618941820903127,
+      "macro_f1_mean": 0.4208665594438865,
+      "macro_f1_sample_sd": 0.10095368810760355,
+      "macro_f1_ci95_lower": 0.2955159994347837,
+      "macro_f1_ci95_upper": 0.5462171194529893
+    },
+    {
+      "shot": 3,
+      "model": "NoPrompt",
+      "seeds": 5,
+      "episodes_per_seed": 600,
+      "accuracy_mean": 0.7292666675845781,
+      "accuracy_sample_sd": 0.02350066823677887,
+      "accuracy_ci95_lower": 0.7000867339012391,
+      "accuracy_ci95_upper": 0.7584466012679172,
+      "macro_f1_mean": 0.7113785274770145,
+      "macro_f1_sample_sd": 0.025488705994525893,
+      "macro_f1_ci95_lower": 0.6797301188828112,
+      "macro_f1_ci95_upper": 0.7430269360712177
+    },
+    {
+      "shot": 3,
+      "model": "V1",
+      "seeds": 5,
+      "episodes_per_seed": 600,
+      "accuracy_mean": 0.6887888915538788,
+      "accuracy_sample_sd": 0.08981025160401293,
+      "accuracy_ci95_lower": 0.577274735467554,
+      "accuracy_ci95_upper": 0.8003030476402035,
+      "macro_f1_mean": 0.6485419772300769,
+      "macro_f1_sample_sd": 0.13570970786642467,
+      "macro_f1_ci95_lower": 0.48003611876558727,
+      "macro_f1_ci95_upper": 0.8170478356945665
+    },
+    {
+      "shot": 5,
+      "model": "NoPrompt",
+      "seeds": 5,
+      "episodes_per_seed": 600,
+      "accuracy_mean": 0.7766999980906645,
+      "accuracy_sample_sd": 0.024650788362587654,
+      "accuracy_ci95_lower": 0.7460920016534991,
+      "accuracy_ci95_upper": 0.8073079945278299,
+      "macro_f1_mean": 0.7682812029581932,
+      "macro_f1_sample_sd": 0.02573487493562067,
+      "macro_f1_ci95_lower": 0.7363271352523566,
+      "macro_f1_ci95_upper": 0.8002352706640299
+    },
+    {
+      "shot": 5,
+      "model": "V1",
+      "seeds": 5,
+      "episodes_per_seed": 600,
+      "accuracy_mean": 0.5814000059763591,
+      "accuracy_sample_sd": 0.11155618327086478,
+      "accuracy_ci95_lower": 0.4428847094319053,
+      "accuracy_ci95_upper": 0.7199153025208129,
+      "macro_f1_mean": 0.4753847987394152,
+      "macro_f1_sample_sd": 0.16317930180022533,
+      "macro_f1_ci95_lower": 0.2727709344420487,
+      "macro_f1_ci95_upper": 0.6779986630367817
+    },
+    {
+      "shot": 10,
+      "model": "NoPrompt",
+      "seeds": 5,
+      "episodes_per_seed": 600,
+      "accuracy_mean": 0.8229555509289105,
+      "accuracy_sample_sd": 0.024655508155613758,
+      "accuracy_ci95_lower": 0.7923416940946656,
+      "accuracy_ci95_upper": 0.8535694077631554,
+      "macro_f1_mean": 0.8195989236993435,
+      "macro_f1_sample_sd": 0.025200742892827623,
+      "macro_f1_ci95_lower": 0.7883080685213301,
+      "macro_f1_ci95_upper": 0.850889778877357
+    },
+    {
+      "shot": 10,
+      "model": "V1",
+      "seeds": 5,
+      "episodes_per_seed": 600,
+      "accuracy_mean": 0.5646333419481913,
+      "accuracy_sample_sd": 0.02950239493690821,
+      "accuracy_ci95_lower": 0.5280012802942433,
+      "accuracy_ci95_upper": 0.6012654036021392,
+      "macro_f1_mean": 0.45814750819195404,
+      "macro_f1_sample_sd": 0.045343073277310936,
+      "macro_f1_ci95_lower": 0.40184664653560187,
+      "macro_f1_ci95_upper": 0.5144483698483062
+    }
+  ],
+  "paired_differences": [
+    {
+      "shot": 1,
+      "metric": "accuracy",
+      "direction": "V1 minus NoPrompt",
+      "seeds": 5,
+      "mean": -0.07471111206213633,
+      "sample_sd": 0.04979112917949989,
+      "ci95_lower": -0.13653496459423428,
+      "ci95_upper": -0.012887259530038393
+    },
+    {
+      "shot": 1,
+      "metric": "macro_f1",
+      "direction": "V1 minus NoPrompt",
+      "seeds": 5,
+      "mean": -0.12248615904696984,
+      "sample_sd": 0.0838901394440147,
+      "ci95_lower": -0.22664952499889643,
+      "ci95_upper": -0.018322793095043255
+    },
+    {
+      "shot": 3,
+      "metric": "accuracy",
+      "direction": "V1 minus NoPrompt",
+      "seeds": 5,
+      "mean": -0.040477776030699415,
+      "sample_sd": 0.0873231047985,
+      "ci95_lower": -0.14890373147037123,
+      "ci95_upper": 0.06794817940897241
+    },
+    {
+      "shot": 3,
+      "metric": "macro_f1",
+      "direction": "V1 minus NoPrompt",
+      "seeds": 5,
+      "mean": -0.06283655024693743,
+      "sample_sd": 0.13399106890524876,
+      "ci95_lower": -0.22920843658742465,
+      "ci95_upper": 0.10353533609354978
+    },
+    {
+      "shot": 5,
+      "metric": "accuracy",
+      "direction": "V1 minus NoPrompt",
+      "seeds": 5,
+      "mean": -0.1952999921143055,
+      "sample_sd": 0.0958724000996384,
+      "ci95_lower": -0.3143412997394135,
+      "ci95_upper": -0.07625868448919751
+    },
+    {
+      "shot": 5,
+      "metric": "macro_f1",
+      "direction": "V1 minus NoPrompt",
+      "seeds": 5,
+      "mean": -0.29289640421877805,
+      "sample_sd": 0.14689283059562458,
+      "ci95_lower": -0.4752879435636095,
+      "ci95_upper": -0.11050486487394662
+    },
+    {
+      "shot": 10,
+      "metric": "accuracy",
+      "direction": "V1 minus NoPrompt",
+      "seeds": 5,
+      "mean": -0.2583222089807192,
+      "sample_sd": 0.013847348520257045,
+      "ci95_lower": -0.2755159631089026,
+      "ci95_upper": -0.2411284548525359
+    },
+    {
+      "shot": 10,
+      "metric": "macro_f1",
+      "direction": "V1 minus NoPrompt",
+      "seeds": 5,
+      "mean": -0.3614514155073895,
+      "sample_sd": 0.02659710863050782,
+      "ci95_lower": -0.3944760877502057,
+      "ci95_upper": -0.32842674326457333
+    }
+  ],
+  "training_provenance": [
+    {
+      "seed": 11,
+      "shot": 1,
+      "best_epoch": 1,
+      "logged_epochs": 11,
+      "logged_training_episodes": 1100,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 11,
+        "shot": 1,
+        "best_epoch": 1,
+        "best_validation_loss": 0.6931859850883484,
+        "best_validation_accuracy": 0.514444449543953,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_1_seed_11_training.csv"
+    },
+    {
+      "seed": 11,
+      "shot": 3,
+      "best_epoch": 6,
+      "logged_epochs": 16,
+      "logged_training_episodes": 1600,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 11,
+        "shot": 3,
+        "best_epoch": 6,
+        "best_validation_loss": 0.6838777105013529,
+        "best_validation_accuracy": 0.7200000027815501,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_3_seed_11_training.csv"
+    },
+    {
+      "seed": 11,
+      "shot": 5,
+      "best_epoch": 1,
+      "logged_epochs": 11,
+      "logged_training_episodes": 1100,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 11,
+        "shot": 5,
+        "best_epoch": 1,
+        "best_validation_loss": 0.6935534338156383,
+        "best_validation_accuracy": 0.5111111144224803,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_5_seed_11_training.csv"
+    },
+    {
+      "seed": 11,
+      "shot": 10,
+      "best_epoch": 4,
+      "logged_epochs": 14,
+      "logged_training_episodes": 1400,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 11,
+        "shot": 10,
+        "best_epoch": 4,
+        "best_validation_loss": 0.6924174785614013,
+        "best_validation_accuracy": 0.5266666700442632,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_10_seed_11_training.csv"
+    },
+    {
+      "seed": 23,
+      "shot": 1,
+      "best_epoch": 1,
+      "logged_epochs": 11,
+      "logged_training_episodes": 1100,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 23,
+        "shot": 1,
+        "best_epoch": 1,
+        "best_validation_loss": 0.6996092995007833,
+        "best_validation_accuracy": 0.5000000029802323,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_1_seed_23_training.csv"
+    },
+    {
+      "seed": 23,
+      "shot": 3,
+      "best_epoch": 1,
+      "logged_epochs": 11,
+      "logged_training_episodes": 1100,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 23,
+        "shot": 3,
+        "best_epoch": 1,
+        "best_validation_loss": 0.6973022441069285,
+        "best_validation_accuracy": 0.48000000417232513,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_3_seed_23_training.csv"
+    },
+    {
+      "seed": 23,
+      "shot": 5,
+      "best_epoch": 4,
+      "logged_epochs": 14,
+      "logged_training_episodes": 1400,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 23,
+        "shot": 5,
+        "best_epoch": 4,
+        "best_validation_loss": 0.707509583234787,
+        "best_validation_accuracy": 0.4877777804931005,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_5_seed_23_training.csv"
+    },
+    {
+      "seed": 23,
+      "shot": 10,
+      "best_epoch": 18,
+      "logged_epochs": 28,
+      "logged_training_episodes": 2800,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 23,
+        "shot": 10,
+        "best_epoch": 18,
+        "best_validation_loss": 0.699174952507019,
+        "best_validation_accuracy": 0.4677777831753095,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_10_seed_23_training.csv"
+    },
+    {
+      "seed": 37,
+      "shot": 1,
+      "best_epoch": 7,
+      "logged_epochs": 17,
+      "logged_training_episodes": 1700,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 37,
+        "shot": 1,
+        "best_epoch": 7,
+        "best_validation_loss": 0.6857826729615529,
+        "best_validation_accuracy": 0.59777778784434,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_1_seed_37_training.csv"
+    },
+    {
+      "seed": 37,
+      "shot": 3,
+      "best_epoch": 3,
+      "logged_epochs": 13,
+      "logged_training_episodes": 1300,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 37,
+        "shot": 3,
+        "best_epoch": 3,
+        "best_validation_loss": 0.6857592821121216,
+        "best_validation_accuracy": 0.6811111181974411,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_3_seed_37_training.csv"
+    },
+    {
+      "seed": 37,
+      "shot": 5,
+      "best_epoch": 10,
+      "logged_epochs": 20,
+      "logged_training_episodes": 2000,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 37,
+        "shot": 5,
+        "best_epoch": 10,
+        "best_validation_loss": 0.6934988379478455,
+        "best_validation_accuracy": 0.5122222284475962,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_5_seed_37_training.csv"
+    },
+    {
+      "seed": 37,
+      "shot": 10,
+      "best_epoch": 4,
+      "logged_epochs": 14,
+      "logged_training_episodes": 1400,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 37,
+        "shot": 10,
+        "best_epoch": 4,
+        "best_validation_loss": 0.6876207848389944,
+        "best_validation_accuracy": 0.5366666783889135,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_10_seed_37_training.csv"
+    },
+    {
+      "seed": 53,
+      "shot": 1,
+      "best_epoch": 5,
+      "logged_epochs": 15,
+      "logged_training_episodes": 1500,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 53,
+        "shot": 1,
+        "best_epoch": 5,
+        "best_validation_loss": 0.7046479721864064,
+        "best_validation_accuracy": 0.4955555568138758,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_1_seed_53_training.csv"
+    },
+    {
+      "seed": 53,
+      "shot": 3,
+      "best_epoch": 2,
+      "logged_epochs": 12,
+      "logged_training_episodes": 1200,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 53,
+        "shot": 3,
+        "best_epoch": 2,
+        "best_validation_loss": 0.6827524602413177,
+        "best_validation_accuracy": 0.7311111132303874,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_3_seed_53_training.csv"
+    },
+    {
+      "seed": 53,
+      "shot": 5,
+      "best_epoch": 1,
+      "logged_epochs": 11,
+      "logged_training_episodes": 1100,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 53,
+        "shot": 5,
+        "best_epoch": 1,
+        "best_validation_loss": 0.7004482686519623,
+        "best_validation_accuracy": 0.48777778446674347,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_5_seed_53_training.csv"
+    },
+    {
+      "seed": 53,
+      "shot": 10,
+      "best_epoch": 2,
+      "logged_epochs": 12,
+      "logged_training_episodes": 1200,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 53,
+        "shot": 10,
+        "best_epoch": 2,
+        "best_validation_loss": 0.6945934136708577,
+        "best_validation_accuracy": 0.5288888961076736,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_10_seed_53_training.csv"
+    },
+    {
+      "seed": 71,
+      "shot": 1,
+      "best_epoch": 3,
+      "logged_epochs": 13,
+      "logged_training_episodes": 1300,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 71,
+        "shot": 1,
+        "best_epoch": 3,
+        "best_validation_loss": 0.6962190091609954,
+        "best_validation_accuracy": 0.5044444481531779,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_1_seed_71_training.csv"
+    },
+    {
+      "seed": 71,
+      "shot": 3,
+      "best_epoch": 16,
+      "logged_epochs": 26,
+      "logged_training_episodes": 2600,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 71,
+        "shot": 3,
+        "best_epoch": 16,
+        "best_validation_loss": 0.6852231820424398,
+        "best_validation_accuracy": 0.7,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_3_seed_71_training.csv"
+    },
+    {
+      "seed": 71,
+      "shot": 5,
+      "best_epoch": 9,
+      "logged_epochs": 19,
+      "logged_training_episodes": 1900,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 71,
+        "shot": 5,
+        "best_epoch": 9,
+        "best_validation_loss": 0.6847346345583598,
+        "best_validation_accuracy": 0.7066666662693024,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_5_seed_71_training.csv"
+    },
+    {
+      "seed": 71,
+      "shot": 10,
+      "best_epoch": 9,
+      "logged_epochs": 19,
+      "logged_training_episodes": 1900,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 71,
+        "shot": 10,
+        "best_epoch": 9,
+        "best_validation_loss": 0.6897512237230937,
+        "best_validation_accuracy": 0.5400000075499217,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      },
+      "training_log": "results/logs/revised/shot_10_seed_71_training.csv"
+    }
+  ],
+  "checkpoint_audit": [
+    {
+      "model": "NoPrompt",
+      "seed": 11,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 11,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03637046366930008
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 11,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 11,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03637046366930008
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 11,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 11,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03637046366930008
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 11,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 11,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03637046366930008
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 23,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 23,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03749354928731918
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 23,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 23,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03749354928731918
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 23,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 23,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03749354928731918
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 23,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 23,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03749354928731918
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 37,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 37,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.037410542368888855
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 37,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 37,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.037410542368888855
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 37,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 37,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.037410542368888855
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 37,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 37,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.037410542368888855
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 53,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 53,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03513486683368683
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 53,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 53,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03513486683368683
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 53,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 53,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03513486683368683
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 53,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 53,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03513486683368683
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 71,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 71,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03609917685389519
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 71,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 71,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03609917685389519
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 71,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 71,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03609917685389519
+      }
+    },
+    {
+      "model": "NoPrompt",
+      "seed": 71,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "objective": "masked_feature_reconstruction_mse",
+        "mask_probability": 0.15,
+        "epochs": 100,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "hidden_dim": 256,
+        "seed": 71,
+        "graph_visibility": "all node features and graph edges; no node labels",
+        "final_loss": 0.03609917685389519
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 11,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/shot_1_seed_11_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "f28451bef7002e95258384ed7de6bd28c03eb387b339c9c25811813cb1f18c5a",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 11,
+        "shot": 1,
+        "best_epoch": 1,
+        "best_validation_loss": 0.6931859850883484,
+        "best_validation_accuracy": 0.514444449543953,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 11,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/shot_3_seed_11_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "7fdf974359eb47bd95958ca8baba3a9e0cc3ed46d1fefa060a783a081c87b853",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 11,
+        "shot": 3,
+        "best_epoch": 6,
+        "best_validation_loss": 0.6838777105013529,
+        "best_validation_accuracy": 0.7200000027815501,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 11,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/shot_5_seed_11_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "9774488e145b5fb4dc4c8046a81a3c17b1f47c2fa3aaace048cd90cf39fe5801",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 11,
+        "shot": 5,
+        "best_epoch": 1,
+        "best_validation_loss": 0.6935534338156383,
+        "best_validation_accuracy": 0.5111111144224803,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 11,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/shot_10_seed_11_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "a9377df0ad561a2780637f0a29dd443d2f17607464f6f4da050e97b30724eb47",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_11_frozen_gcn.pt",
+      "backbone_sha256": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 11,
+        "shot": 10,
+        "best_epoch": 4,
+        "best_validation_loss": 0.6924174785614013,
+        "best_validation_accuracy": 0.5266666700442632,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 23,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/shot_1_seed_23_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "1cb2b67f6672830de0bf97741505fdc0dbddc317f558833b5882770b863feb1b",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 23,
+        "shot": 1,
+        "best_epoch": 1,
+        "best_validation_loss": 0.6996092995007833,
+        "best_validation_accuracy": 0.5000000029802323,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 23,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/shot_3_seed_23_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "1dc379e5e6440c0f61113dfaf77fd35916d514fbfda690e9d80ccc392898a2f9",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 23,
+        "shot": 3,
+        "best_epoch": 1,
+        "best_validation_loss": 0.6973022441069285,
+        "best_validation_accuracy": 0.48000000417232513,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 23,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/shot_5_seed_23_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "e3f91a737758beca47b5277abaac14f565514ce107229cb3907acadd34ec28c8",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 23,
+        "shot": 5,
+        "best_epoch": 4,
+        "best_validation_loss": 0.707509583234787,
+        "best_validation_accuracy": 0.4877777804931005,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 23,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/shot_10_seed_23_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "a9098b354e80042864ced128147215b81ba36dc47030dc118ffc39a9358d5d38",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_23_frozen_gcn.pt",
+      "backbone_sha256": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 23,
+        "shot": 10,
+        "best_epoch": 18,
+        "best_validation_loss": 0.699174952507019,
+        "best_validation_accuracy": 0.4677777831753095,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 37,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/shot_1_seed_37_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "9a71f87c0fb1f151c7225350b022fb25a6c9c50859da047580269bdf0611fd20",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 37,
+        "shot": 1,
+        "best_epoch": 7,
+        "best_validation_loss": 0.6857826729615529,
+        "best_validation_accuracy": 0.59777778784434,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 37,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/shot_3_seed_37_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "233b81f1f9fb8945b46d199f44994ea92f65090d44221af40442c75266ec0212",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 37,
+        "shot": 3,
+        "best_epoch": 3,
+        "best_validation_loss": 0.6857592821121216,
+        "best_validation_accuracy": 0.6811111181974411,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 37,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/shot_5_seed_37_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "5c24b08778fb2327c8f8677a93377a5f2c8b71d66c716166768967dba9fb20f6",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 37,
+        "shot": 5,
+        "best_epoch": 10,
+        "best_validation_loss": 0.6934988379478455,
+        "best_validation_accuracy": 0.5122222284475962,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 37,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/shot_10_seed_37_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "887cc18d1c4628c77115acd16e53c6d3a4a3eab2bfafb2a48dcdec6c238f559e",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_37_frozen_gcn.pt",
+      "backbone_sha256": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 37,
+        "shot": 10,
+        "best_epoch": 4,
+        "best_validation_loss": 0.6876207848389944,
+        "best_validation_accuracy": 0.5366666783889135,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 53,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/shot_1_seed_53_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "ddecc37311d37fc4d287c542f96ab3e31adbf00670d9b27303eb2968f49eb050",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 53,
+        "shot": 1,
+        "best_epoch": 5,
+        "best_validation_loss": 0.7046479721864064,
+        "best_validation_accuracy": 0.4955555568138758,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 53,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/shot_3_seed_53_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "3be3bc5bf5dfba80a534a374822fb658de433cc01d7a57cd8b0e517387aefdd2",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 53,
+        "shot": 3,
+        "best_epoch": 2,
+        "best_validation_loss": 0.6827524602413177,
+        "best_validation_accuracy": 0.7311111132303874,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 53,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/shot_5_seed_53_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "664ca032c32e9711b833d09fda4c1da7ad935fa66a9c84564bbce4ebb7cebe50",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 53,
+        "shot": 5,
+        "best_epoch": 1,
+        "best_validation_loss": 0.7004482686519623,
+        "best_validation_accuracy": 0.48777778446674347,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 53,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/shot_10_seed_53_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "bc6c0a8f79ecad161c453c97fe9ba8b4e8aaf6a89af9985b0fd78358a456c19c",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_53_frozen_gcn.pt",
+      "backbone_sha256": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 53,
+        "shot": 10,
+        "best_epoch": 2,
+        "best_validation_loss": 0.6945934136708577,
+        "best_validation_accuracy": 0.5288888961076736,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 71,
+      "shot": 1,
+      "checkpoint": "results/checkpoints/shot_1_seed_71_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "ba9105f4042cb55263bff3161d8883b0d1336a69a98f6cce8e5912d984d9adc7",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 71,
+        "shot": 1,
+        "best_epoch": 3,
+        "best_validation_loss": 0.6962190091609954,
+        "best_validation_accuracy": 0.5044444481531779,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 71,
+      "shot": 3,
+      "checkpoint": "results/checkpoints/shot_3_seed_71_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "a8542d3f9fabf30c5c0b6e2b3d71088238f5f319c4d7e965c433d04bb207aaca",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 71,
+        "shot": 3,
+        "best_epoch": 16,
+        "best_validation_loss": 0.6852231820424398,
+        "best_validation_accuracy": 0.7,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 71,
+      "shot": 5,
+      "checkpoint": "results/checkpoints/shot_5_seed_71_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "2198e9d1a80f79c44a367269dba3cc5d29851e1c202f8a8be7354ac9de201a2d",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 71,
+        "shot": 5,
+        "best_epoch": 9,
+        "best_validation_loss": 0.6847346345583598,
+        "best_validation_accuracy": 0.7066666662693024,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    },
+    {
+      "model": "V1",
+      "seed": 71,
+      "shot": 10,
+      "checkpoint": "results/checkpoints/shot_10_seed_71_prompt.pt",
+      "available": true,
+      "status": "valid",
+      "sha256": "1f386991e726c25cc9be932b3a01752d308ad194c140e7769e43ec06a55c99e4",
+      "issues": [],
+      "backbone": "results/checkpoints/seed_71_frozen_gcn.pt",
+      "backbone_sha256": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+      "state_dict_valid": true,
+      "protocol_metadata_complete": true,
+      "metadata": {
+        "protocol": "revised_self_supervised_3_2_2",
+        "class_split": {
+          "train": [
+            0,
+            1,
+            2
+          ],
+          "validation": [
+            3,
+            4
+          ],
+          "test": [
+            5,
+            6
+          ]
+        },
+        "seed": 71,
+        "shot": 10,
+        "best_epoch": 9,
+        "best_validation_loss": 0.6897512237230937,
+        "best_validation_accuracy": 0.5400000075499217,
+        "backbone_checkpoint": "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt",
+        "optimizer": "Adam",
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "temperature": 0.1,
+        "episodes_per_epoch": 100,
+        "validation_episodes": 30,
+        "max_epochs": 50,
+        "patience": 10
+      }
+    }
+  ],
+  "protected_hashes": {
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\README.md": "4aca40d3241cb76771ce467ddb2045abbb45d1b41c111d06bdcdd659938eddd2",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\requirements.txt": "040c17be2241ba2c21b2739a8ec3d5588e77bc828b47e55811b7cbef573e0141",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\configs\\cora.yaml": "c0afc0520ee1f2a0b8c39be96d6272a1511fb072dcbb4e29de4c2814f3680259",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\data\\Cora\\processed\\data.pt": "89854b1cf5e971674aa7355995780f0991b1d25c7fa777dd96af674ad12e4af9",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\data\\Cora\\processed\\pre_filter.pt": "fe7c8f11dba2284d2e9fcdc06d2333ee1a9f381570e210c4188fe6290f392192",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\data\\Cora\\processed\\pre_transform.pt": "fe7c8f11dba2284d2e9fcdc06d2333ee1a9f381570e210c4188fe6290f392192",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\data\\Cora\\raw\\ind.cora.allx": "9419ba2f26f5c35243db64aba110e0f35a04851609e0dc5433450676ca6b8543",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\data\\Cora\\raw\\ind.cora.ally": "2b998f5cc7fedc86e7f97ca2498f47a1ffc1462c29e2d578b23bf3f62b6e7d71",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\data\\Cora\\raw\\ind.cora.graph": "58f13302f39dde8852dad6fe6d15b89b077b6d7f837626bce671ef80344b383d",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\data\\Cora\\raw\\ind.cora.test.index": "297ce89af2b51a6a194181c7dbe1796c6a1cf9cd9349a88383b1b1e227867875",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\data\\Cora\\raw\\ind.cora.tx": "b9afbaa4a400df991f6f02ef677e1e44da55ffc04801fd02f9e673987829226a",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\data\\Cora\\raw\\ind.cora.ty": "41f5ac76596a1699cc33f53084a2419e92961c42bb75f36fc38e616d348532ad",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\data\\Cora\\raw\\ind.cora.x": "23cfa55d91c6f624233f5eb7b6e3f141f1bd2b2ae39608a63cf5d084bb27baab",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\data\\Cora\\raw\\ind.cora.y": "94465c14eb53e04ca262198dcbb2521ee8af60fb3f3d546cd6ca24a511b0e7d1",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\diagnostics\\connectivity_comparison.csv": "e4f0aaf1249c5c7c764bc6ec7b5c7913c30470e037e18a0d1a5fa8534cdb8f4e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\diagnostics\\prompt_scale_results.csv": "a3af6d66361c70eb8265941467fd7cacb4518a6c6eeffd495a0a9412586c8220",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\diagnostics\\validation_scale_selection.json": "92af045f9cd418d3e3dfdf299a61996b8b8efe62adb6d4e2602c8e89a3b0f0db",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\audit_final_evaluation.py": "39398f50e84d9a93b8c32d4a10eec232f9d86c40cef031e2b2a0d8d35a0678db",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\check_runtime_contracts.py": "01220387bd71beb08ef9017544174cfae26f6c7abfb74d8d8829632f3272cc66",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\diagnose_v3_alignment.py": "4b99f116ec03f82d106363a0bbdf775a56da1bb312a9abddb3678807f07a05c2",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_ablation.py": "e6040cb4c03efd87f2e03f3d893ca405e3d672a91f79c40a478d987920ce6843",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_all.py": "d72fadff4adad3f3bd29d73eda9ab6546d5a361e996395ea76022b7435364671",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_baselines.py": "c436e527fccb759a7120fd42a5ee9a4cf913d876c9b2440034fd3f6c40586913",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_llmgp_v2_validation.py": "a0180b561648a41d18254a25be0cf777d3599244d2d3755586ed9214efbc8786",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_performance_diagnostics.py": "0d2dc3a5afd9d66a9dcd97d4a339bb517d306ad0a48e3f0fc14697fb39dd52d5",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_prompt_scale_analysis.py": "5d7ea123eb1efa257e8e3c266db444852fb205d5ef681b49fca276a6e56964c0",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_revised_experiments.py": "fe6c1143b435b562d0e738e9e5f3f05ec049a5fbea9bd771ca78ee1cd1a7a406",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_smoke_test.py": "3f1338c48e21b863b5b98ca64b35c058fc0f1e8a2bcdc68cbf658d58e88b85e7",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_v2_extended_validation.py": "354179fd33ecd8ddbeb5ca7c8329bdd62b97867fb452d8ce1436dcf294b5ca9c",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_v2_mvp.py": "8e36c685fec8d22c2c2f6cbb7f6b6d8c6a0643bf6c0307cf2ac39be2f86535a7",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_v2_semantic_alignment_audit.py": "448c864aca76e1be2e920bd1f02f36d299214c426ab2284372a190f85958cbd3",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_v2_semantic_contribution.py": "29dc63e4f600f7d52ccd292c52fe42af75d205e69af16659a27b2553531d9835",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_v2_semantic_sensitivity.py": "8f2c05c89bc2ab571a03d1691dfc1a0e179dd4acb0fef76d2638c41ac3bc3670",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_v3_align_mvp.py": "b8a15a4e1bf01ac761100afa662d41cdb116274a6eac1e0028a4f160a1576747",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\experiments\\run_v3_mvp_validation.py": "cd29c34215b96dbf6100701f7391f2325776a0f76ca0d5da88de38baf70ba970",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\full_experiment_report.md": "7cb0d857fb9ae1e77bf44710f6f0dafe66cac95666c55371705fddf15e68520d",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\performance_diagnosis.md": "2fcd96fdba422407872d7c6286feb0b9a04942f3bab5043a00ede09303e3f09e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\prompt_scale_analysis.md": "15500a40d72d3c278c3be05ffcb8a67840e58cdd34c98e81be66689aa86cbc30",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\reproducibility_report.md": "ecf30e51dfcebad41a0c95a1c653fdbc8d6e286b537326fec17da374ce1f3654",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\revised_protocol_experiment_report.md": "9a280364941837963cbc9031c772bc0ed8bc12dda01cfbddfc848fa7093ca863",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\semantic_alignment_audit.md": "3a8fe78ba7e67f800788faba36980256c9dc93fed4be8ddb191d3e36ee6904df",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\smoke_test_report.md": "31dd9e80647745635d35126cb73406bf7d317371fdcf7e8e951df25e9a0c113a",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v2_extended_validation.md": "e8866d7d7c766135d950a686f849a899a70d7f045934dc5612146aa900b95489",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v2_mvp_report.md": "00e5c20814e4ec93b4691114682ef9fffe4c1e3baadc85107408abf2a646551f",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v2_semantic_contribution.md": "688ae242c7a9b986751e91a74e6c87d987da3a5d93c68d268e43ead084cb2c59",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v2_semantic_sensitivity.json": "168cf6eea05eb977c2a1fea61dff08c8b70e28e3c737557e535d635b07403d55",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v2_semantic_sensitivity.md": "914b979e2e95c172972f5fa11604a982c06d85abbacfe9a9065585cc4ce4b3ff",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v3_alignment_diagnosis.md": "0c5b2b0402e002ddfaf8807202b51caba765e14db2ee30e0f9df1d24ee828c9d",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v3_alignment_diagnosis_v2.csv": "5352893f79264020e6dff5e9efde7ce17f62e7a83b5c7ffaf6385b0d6e7d384a",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v3_alignment_diagnosis_v2.json": "cf2235411adb0d94e2f2a992767d8167ce5f3ece043e0bdf05a7b1aa37fca49c",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v3_alignment_diagnosis_v2.md": "4ed6db32a1fcd7a6b1c5d035e24f8820a8b8830f79a2b43543728d1162ab6056",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v3_align_mvp.md": "0d9db250a6143ece5db2bc5ccae2d278a456a7721306fe97517d247ad25bab45",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v3_mvp_validation.csv": "1a31d6c0025c0212385128b31af9537710e47da727795e310e022f2b78faf36e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v3_mvp_validation.md": "f1a3e44d15e09f18d7c0f09dd2936a0104aa15705222fefe0af561a4c0d29d9d",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\v3_mvp_validation_details.json": "8553e6b2ce628ee93057c613a823d28886c9b0b932ec8b9293bb5e31dbd5cdd7",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\final_evaluation\\checkpoint_audit_001\\checkpoint_audit.json": "f2b76166cb8ab95e2f40de0bb795b24583bb60ead83a0a2fc2dd3e72bf3e6a11",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\final_evaluation\\checkpoint_audit_001\\checkpoint_audit.md": "a88333755631e5a0c7143ccfc29a9d0be698e18100133ec18eea089d124be5d9",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\final_evaluation\\checkpoint_audit_001\\checkpoint_matrix.csv": "9ba02766ce882b4f5fee646d08c7e1097c372995d27f228951c7b0f8e68a579c",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\reports\\final_evaluation\\two_model_test\\run_evaluation.py": "2ee1062ff3dc5f2fff18459f6cf5338145c28ffe0fea4366a6e779df11788223",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_11_frozen_gcn.pt": "17e5a2011bad5e4a1b0ab713a3b068012ae27e0b2a9ac743072af1d2532da4bd",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_23_frozen_gcn.pt": "c801d87ce6e32434941db671bc002c7bb23813abb920d7660c44235f8390c350",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_37_frozen_gcn.pt": "082acbf2a173514e34cdc6ad64ca2ef581621fe1df8d5eb9a5faaa9e998668cf",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_53_frozen_gcn.pt": "aaabf91024d0b5a0d2cb637c7ff23cd8e5941184638ed195911466b30e117791",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\seed_71_frozen_gcn.pt": "5ccf55a0971ae26a1acf6e412c6cce7c22cfc9b1fc4257d5c70ffc5666d43b2d",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_10_seed_11_prompt.pt": "a9377df0ad561a2780637f0a29dd443d2f17607464f6f4da050e97b30724eb47",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_10_seed_23_prompt.pt": "a9098b354e80042864ced128147215b81ba36dc47030dc118ffc39a9358d5d38",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_10_seed_37_prompt.pt": "887cc18d1c4628c77115acd16e53c6d3a4a3eab2bfafb2a48dcdec6c238f559e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_10_seed_53_prompt.pt": "bc6c0a8f79ecad161c453c97fe9ba8b4e8aaf6a89af9985b0fd78358a456c19c",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_10_seed_71_prompt.pt": "1f386991e726c25cc9be932b3a01752d308ad194c140e7769e43ec06a55c99e4",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_1_seed_11_prompt.pt": "f28451bef7002e95258384ed7de6bd28c03eb387b339c9c25811813cb1f18c5a",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_1_seed_23_prompt.pt": "1cb2b67f6672830de0bf97741505fdc0dbddc317f558833b5882770b863feb1b",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_1_seed_37_prompt.pt": "9a71f87c0fb1f151c7225350b022fb25a6c9c50859da047580269bdf0611fd20",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_1_seed_53_prompt.pt": "ddecc37311d37fc4d287c542f96ab3e31adbf00670d9b27303eb2968f49eb050",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_1_seed_71_prompt.pt": "ba9105f4042cb55263bff3161d8883b0d1336a69a98f6cce8e5912d984d9adc7",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_3_seed_11_prompt.pt": "7fdf974359eb47bd95958ca8baba3a9e0cc3ed46d1fefa060a783a081c87b853",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_3_seed_23_prompt.pt": "1dc379e5e6440c0f61113dfaf77fd35916d514fbfda690e9d80ccc392898a2f9",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_3_seed_37_prompt.pt": "233b81f1f9fb8945b46d199f44994ea92f65090d44221af40442c75266ec0212",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_3_seed_53_prompt.pt": "3be3bc5bf5dfba80a534a374822fb658de433cc01d7a57cd8b0e517387aefdd2",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_3_seed_71_prompt.pt": "a8542d3f9fabf30c5c0b6e2b3d71088238f5f319c4d7e965c433d04bb207aaca",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_5_seed_11_prompt.pt": "9774488e145b5fb4dc4c8046a81a3c17b1f47c2fa3aaace048cd90cf39fe5801",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_5_seed_23_prompt.pt": "e3f91a737758beca47b5277abaac14f565514ce107229cb3907acadd34ec28c8",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_5_seed_37_prompt.pt": "5c24b08778fb2327c8f8677a93377a5f2c8b71d66c716166768967dba9fb20f6",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_5_seed_53_prompt.pt": "664ca032c32e9711b833d09fda4c1da7ad935fa66a9c84564bbce4ebb7cebe50",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\checkpoints\\shot_5_seed_71_prompt.pt": "2198e9d1a80f79c44a367269dba3cc5d29851e1c202f8a8be7354ac9de201a2d",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\diagnostics\\baseline_comparison.csv": "54b6c63b5e2d6d1e40e6fddcfb92564f4fe61662c6bda79d115e7d426054ec7e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\diagnostics\\gradient_graph_diagnostics.csv": "6b13ebf17f0c8debc5366bfc3e4b096300709ed663964bd49d11c63f8e318940",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\diagnostics\\performance_diagnostics.json": "5c2468ea25c4870b0e8312251134e5f1c7c489bb67d37cc3d73fbcb7a120fd75",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\figures\\accuracy_comparison.png": "80c367dfbcb73903d3b382e4a9d0c4255fb73262564df6e04b63447a326a53e8",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\figures\\accuracy_trend.png": "3db508a5229d72f59db5015d83c8d9aa9884ce3e8e8b4c3213c280a5dc59d0d1",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\projection_checkpoint.pt": "f82ec8e37d91660ab7c56788903c0101183b14547a604164858cd48d8c73b1bc",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\smoke_test_metrics.json": "722de0f04510ca07f3f81a9f1d40c8b4f502cfbfca4dc513897ac81dfc9ba138",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\seed_11_pretraining.json": "8e4d05c1781c7d1d915481be67d051538601d39d6fe45ab18b55f1ca419fcb0e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\seed_23_pretraining.json": "28d59ba89bcf4656c0aafefdf4ca196f395e8969f1e39734396f277edccd601f",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\seed_37_pretraining.json": "0e069630d9ec72fdc2a612ae177bda27d4a80e0349791acae49a16223a75a311",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\seed_53_pretraining.json": "78d1ab2f817d893c9a6a04878150e334d9fdccdfe2ed961766498c0d582061f6",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\seed_71_pretraining.json": "e8b1e76ab58e0572b9f3b0252bc3ffaa4dc1aab381fa87b1c04f988a4c337fdc",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_10_seed_11_training.csv": "92e5b191200e9f7ef05f25c51684c91bd15738d4970b8cc2fd3bbc18192e53b0",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_10_seed_23_training.csv": "3b80c41fb2e9abbfb9c1de65da89d962be4f49b191e41050290883736eac7e15",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_10_seed_37_training.csv": "1c1d359cbd23eff6b81c31f726dd053420fceae2292c51591d5a9386af7a2d52",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_10_seed_53_training.csv": "287a36a0f3119b936689ecca51cb8f1b057989be8906117bba40652fe5a4a9bc",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_10_seed_71_training.csv": "a99dcb1d4653b29ff4348cef9603b5f37e523b5dde32aba9f6d1aa3bfc4b1349",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_1_seed_11_training.csv": "9245a0c39f1d07ea61a0e1cbb451219c5bb8f9bb935588526d435a1cbcd98842",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_1_seed_23_training.csv": "c47f419e3b31d081d1827d637875707b902f7ad5d6b65af7224868cf4b19b0d1",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_1_seed_37_training.csv": "511a7775e6df4fe43864468fa17be05e0abbed0984bcde1ce6088007f74719b3",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_1_seed_53_training.csv": "e8396cfedc88aef3c5afabc0cd33241d763f702d2f927ba9824db5f98102340a",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_1_seed_71_training.csv": "f7253acb62f06e6a5da048e53d990c553a8b00f2b6f8933a1a16907126b0c620",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_3_seed_11_training.csv": "2f70a406766f4357e10a2a84e8142c3b88d708b1c44dd6f842bf44c77fa64f07",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_3_seed_23_training.csv": "50954626f09a0e4529f67952e76a79730bd2e899467848f692050ae3954b7579",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_3_seed_37_training.csv": "af9c332793b6f37034f5c4226e2c41dfde7fda2582203b52dd5c7050380ac785",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_3_seed_53_training.csv": "0fb41741103ce41bcaf14f11c2b14eb260da7903c6b5157875acd0083375df0d",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_3_seed_71_training.csv": "bbb808022a9ba5df0006951d663aa3dfa15f1b1d37c633cff6f1a58f389c7120",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_5_seed_11_training.csv": "725cb2b78ba7059b3eef9e6f0cdda5b397362db234c8bf852bc51a8e597b1c2e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_5_seed_23_training.csv": "493ff83c0de09633f8fd1bc04cdf9167a3faec5feca5af23e596c55b5b982103",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_5_seed_37_training.csv": "ae5e1aaf4295708e4ac748dc4429366224e14e966280135fcd32f995222c4ddc",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_5_seed_53_training.csv": "178b4d5abd74ba50cede79844e9fe2ff1135a7a1949478152d27608ce163e81e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\logs\\revised\\shot_5_seed_71_training.csv": "61c0f74fb393a10b7ea61ed02ceab4a95fef7ac74d36350d67a601ebc4f3c7b6",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\episode_metrics.csv": "bc46d4b3bd9bbcad2e3170adbf99f7f1bfacce0f621a4f9523231eb2c8e28512",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\final_results.csv": "999e95db1b7718884b9e698890255c6cfc8b309d2134b1d1c419ebdae570112b",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_11_shot_1.csv": "654208476c151c8dfd9f9ba87a14144531f241f954cff1fe7132d02d98b4e5c1",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_11_shot_10.csv": "9dc1eeb20d428829dc62d54a921387b20342336962f8e9361e2326f457b6b534",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_11_shot_3.csv": "bb304278fbb35034d3d4c2991eb429b1714da253a771823566c35986efb261a0",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_11_shot_5.csv": "3534b9a26560b8dc6628c6ff81bc68691a7a033d901673b46ac19d0fb972a05f",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_23_shot_1.csv": "8ee9e4d5a0721db891fb8f781cfbd691c02b40fe81f0a0149d3ddbec6dd69dc7",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_23_shot_10.csv": "9197a68e3e1386f4709cd0ade32f4c5add255eebfd9937514ff05ddd949d25d1",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_23_shot_3.csv": "2f210fbd4cb758aba9080dbe5260fc26692e8034849892bda2879791c7b0527b",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_23_shot_5.csv": "1d4f0d5736c0606bc26bd7828eeb698f9ba0495e8e5acc8bd50b7c92709f9c6c",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_37_shot_1.csv": "bab942416ad82779c58ba9701b5bce05534aa5c3975ff86718fdcaba11a8cac3",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_37_shot_10.csv": "258010f8f09a2c56fecdacc9d0493673a0bedeb6d22a93dd486e00e7660588d2",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_37_shot_3.csv": "f473166b9929e6762d879f485862f4ecaae6f448abaa73eecfeb97556e43a7c1",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_37_shot_5.csv": "96d7a315c6676a0c5fe97f5ee17deae68d4e67602743ce8a008b02ceb018b440",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_53_shot_1.csv": "c94715a15622c4adddaba0a1ae48b07973432295814c065513dea13f518373e5",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_53_shot_10.csv": "b9021472ba14a97365bbbc603e344d287003b4263470903629cae0ca39e0a038",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_53_shot_3.csv": "c649e53a95c37424bebada8acbdb949407bdfbff4b178074b88d34677037fd24",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_53_shot_5.csv": "0b3b43dc5cad8c2ab58baaec6950ff6c5cd2904659078b647ccbbb4ffb9743c2",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_71_shot_1.csv": "9c24c7918a5f829829373238bb30ea2e45c343849cca2657991f0949ff2498b4",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_71_shot_10.csv": "033375c5cf5d7a2403106668d96a02daa8f45f60e8c53e70de79565fa31f7b5c",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_71_shot_3.csv": "3ad7c3c25cb9ae7db6f60ebd22742b32954b02e89386330c387711e8fcf9e405",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\raw_predictions_seed_71_shot_5.csv": "c9e82eab72e0c06d92179ac5f0a19b7c46ca1e365f02bda1ff627844807bca2a",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\metrics\\seed_wise_results.csv": "f029ec047d7a71dbf213015d487af3356603a2241f5c4878030c22266129d2b9",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\revised_smoke\\seed_2026_frozen_gcn.pt": "3203083178803fa75de8d96e84bbd84ee74b7587754bff42b0248f9f99164a43",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\revised_smoke\\shot_1_seed_11_prompt.pt": "67ef967189abacfea0b6559066a511ab7a0458507dda7a16ed197b9b0b11b4a8",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\revised_smoke\\shot_1_seed_11_training.csv": "a902822e95978657f8bff640cc21bff4b499dea602cc946267fbd2e15a75f451",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\revised_smoke\\smoke_episode_metrics.csv": "ee7cd16b477e7701f99d3bf0f0acda1d3bf54484cfd4c4e73406f9a0e9789a8c",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\revised_smoke\\smoke_predictions.csv": "4d0d787db1ff9581cd640b74b7489849c4fbbd7bb732bd144ce9ae6cdeb8be67",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\revised_smoke\\smoke_summary.json": "8e5baf3aeceb6d5f8342511f102d2ca672c431a46e2ba9fa1ece46bd36854324",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\v1_artifact_manifest_before.json": "0fb6b01206b32014c0886cea00ce435479698eb9f8afe6e2a1b0e29393956d6b",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\validation_episode_manifest.json": "510abeb6ed49032e447ec9d4055944807b6ca1ddc94b6dd5dcfdbfc5085c8050",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedgatedprompt_configured_shot_10_seed_11.pt": "2bf6819391099e18571ae8c906d880422e1052ba0626d11259eb07fbe4fdb6a5",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedgatedprompt_configured_shot_1_seed_11.pt": "96dc4ed18aede3ba44acb3fe1a6e3f50e31e48137d5a7cbb4ee7531a678d629e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedgatedprompt_configured_shot_3_seed_11.pt": "263526bcb4f33224c7f3f0b68a3fa7ebfc5fa6f5226691455a4245c815128412",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedgatedprompt_configured_shot_5_seed_11.pt": "60497c62d57bf6683bdb608318ec82ef957f58afdefa72e601796c9e1c81dfb5",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedgatedprompt_random_shot_10_seed_11.pt": "dbbd0dd6b9b8931a7ad53286612169b6334f986ede9e4b0a1f2ef853e15f90be",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedgatedprompt_random_shot_1_seed_11.pt": "adc9cbeb81f8b4e321737369650987d7218bdda0f1d42039cf94a7a71a420197",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedgatedprompt_random_shot_3_seed_11.pt": "344445d7eff59f2a04ba259459d215926d249a524631d521d91a8fd911faeb11",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedgatedprompt_random_shot_5_seed_11.pt": "1b2cd64b628ffe71705ca8e17ef743a82f2819bfe0da593d0b72adb4502121c8",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedgatedprompt_shuffled_shot_10_seed_11.pt": "f17c9f3345e9cdfd2d5347c7c8a49f96583438304e91b587dfbcc29e0b5af5da",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedgatedprompt_shuffled_shot_1_seed_11.pt": "0d15ae249e809ba8accf1965b83f2fa5238ab443e39c0161314924cd5c1f27dc",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedgatedprompt_shuffled_shot_3_seed_11.pt": "4f04e81d9ce04bd310ec482d805ce727154925b3c80fd13523d7faa3973d76fc",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedgatedprompt_shuffled_shot_5_seed_11.pt": "100e97c6d66c499f94d8dc585c10f89e9b8aa07a4d4ec142be4249e6ce544ae3",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedprompt_configured_shot_10_seed_11.pt": "d398d55ac2114d25bb8903985189fc5ebc0462db80250ca78bd0b58f34144bde",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedprompt_configured_shot_1_seed_11.pt": "49c7650a0a6c427ea0ac340edac11f20932e3a04f0b783c83ccb1a4f15bdc598",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedprompt_configured_shot_3_seed_11.pt": "0a422ea94f22f1125b78a618c10900a421cf0fe75a3a731b6b042d7ef9100326",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\normalizedprompt_configured_shot_5_seed_11.pt": "e0eb068a9099ea0d17f9c22e328d81694ed436237f4e354ee55f12651c101754",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\originalprompt_configured_shot_10_seed_11.pt": "8dcd5f621a527c3fb22238f1dd3bccbd558511f729af2e13cd65754e916101fe",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\originalprompt_configured_shot_1_seed_11.pt": "132d9d6790c2edb10786097c67793a044cceb374e48cc9c489d5e0c2affbdc55",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\originalprompt_configured_shot_3_seed_11.pt": "2641f1f6c140c9047cab1f482da7503905921b937bf4ff0c348cee85ca1d5d31",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\checkpoints\\originalprompt_configured_shot_5_seed_11.pt": "7496f9d748aec90a4178419f1f80660b9bd201652e51b11be1d4e5c9cbaeaf7e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedgatedprompt_configured_shot_10_seed_11.csv": "611f0b286b6c01ce152b47fc06ba07b1fb1baf97165fe39334a757240f988a9c",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedgatedprompt_configured_shot_1_seed_11.csv": "4c0ab3526c7939267397c08501cacf35c7595737d60c2bba4a00b63341632dc0",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedgatedprompt_configured_shot_3_seed_11.csv": "4907e73a50b2bf78c110ce77b5f1525540755150a33078b186599f200d233c8f",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedgatedprompt_configured_shot_5_seed_11.csv": "871b999e8bb7abfb3f1b1d455e97e51cc1e61dc12cd97c72312c54a290bb428e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedgatedprompt_random_shot_10_seed_11.csv": "1d900f4b4c40d1669cd8fe53e1904001fe321894e1f6c6ca1b3fcbfbb45cb7f1",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedgatedprompt_random_shot_1_seed_11.csv": "2ff4301f17b0e4497cfef66895d2231b18788f66282c325fca1dc37b8d7f1f84",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedgatedprompt_random_shot_3_seed_11.csv": "d21f62efd3dd7390b0fe9318ea8e43608923b30c2811dbda163500142907a680",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedgatedprompt_random_shot_5_seed_11.csv": "def4f8213e46e7a1301af6fb1698e0cf12819b9f75a393eadb13b24fcc7716c9",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedgatedprompt_shuffled_shot_10_seed_11.csv": "0c590ec443bed5ddb73fcaf2f951fcb2811ff41d1c879650ff6964e8a714de30",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedgatedprompt_shuffled_shot_1_seed_11.csv": "8c48e602b211722058bd88dbb295fbf1846aab09946a2a479f7723b288f0f644",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedgatedprompt_shuffled_shot_3_seed_11.csv": "f65d314f7308c733886f49e63c5d202a2c5a76d43be62cde624efe88812b8558",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedgatedprompt_shuffled_shot_5_seed_11.csv": "305cd29151d5d5dc7295b64db7d095741a6ee0b64b5223ddbc3e329163d8a69f",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedprompt_configured_shot_10_seed_11.csv": "b28f5cdcf187fe2ba1c624a2de6a0b581da6ec2de48c04e63b308919401f5e8d",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedprompt_configured_shot_1_seed_11.csv": "1a807d8e6935a90da6cc6c8685f885c2001d3b377bccaaf6bd8f49add861b4e0",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedprompt_configured_shot_3_seed_11.csv": "3b33eb453327ddb37ae3939a5da9f3bf54b1b63ae03dcac714c931bb4758524b",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\normalizedprompt_configured_shot_5_seed_11.csv": "ed9bb2235b2536b64e0778688a7dc8818e1d3172e5d00930a3fc6668c7bad174",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\originalprompt_configured_shot_10_seed_11.csv": "a66faf6159716b9ab18259b418329dcb65faee80ba86353ff33a21f800e44726",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\originalprompt_configured_shot_1_seed_11.csv": "387cc05784edd172e244a1b55385b05c84be33a0e3faf303538bb693d361dd7f",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\originalprompt_configured_shot_3_seed_11.csv": "394193c27aaa6136a2e8ac8622695bf55b48a39d34d097f9713e01b96a80f846",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v2\\training_logs\\originalprompt_configured_shot_5_seed_11.csv": "708ad662b30aef2ae1299fd42ca032bbee14312195348607c8ac02450c381e21",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3\\checkpoints\\semantic_prototype_fusion_correct_shot_3_seed_11.pt": "f9d55988af0b93df4450765f91599321bd4e15344c6d149a9dea5d8fb2b9e4f7",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3\\checkpoints\\semantic_prototype_fusion_correct_shot_3_seed_23.pt": "69c16fa1a39a3e81db4caf575ea9f931788149b0db57b946f74e700f5dcc657b",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3\\checkpoints\\semantic_prototype_fusion_correct_shot_3_seed_37.pt": "33faa3f88f65dac8f26b9dd48f0650e6abdb654362e27b7da4a61650e579382c",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3\\checkpoints\\semantic_prototype_fusion_random_shot_3_seed_11.pt": "42b79ce721d3191e5f587363f85cae98fdd102a5be0e414f83f71deb3f23eff8",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3\\checkpoints\\semantic_prototype_fusion_random_shot_3_seed_23.pt": "9dd85f5341c816ec8d6a4beccc5d272ad3a5f9153b48ea07f1f0e92d07a50491",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3\\checkpoints\\semantic_prototype_fusion_random_shot_3_seed_37.pt": "0ae026b7461ec3cd4d290e4ac55056638fddb44be8eb0e2042f95ba2b02f89a7",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3\\checkpoints\\semantic_prototype_fusion_shuffled_shot_3_seed_11.pt": "e77686f00ae723c4954dcf69149666949882dbe04191cf100996a87456752d98",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3\\checkpoints\\semantic_prototype_fusion_shuffled_shot_3_seed_23.pt": "8c4b2b797dde7fc9df180706db634ebd27896881e4a004353dd5c88fbca01669",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3\\checkpoints\\semantic_prototype_fusion_shuffled_shot_3_seed_37.pt": "b2e8cb850c1110c6cfe5e16626a43edcc00790cae8340bb196b5826d98199045",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3_align\\mvp_results.csv": "9f1ff8c5b8cebe411720735898d9c643088d538c30a876518e5308c1eedeb4a6",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3_align\\mvp_results.json": "8151a5c7c30b84991e3b627298571bbe70aa4425d19abecdcb9a895c822395f1",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3_align\\checkpoints\\semantic_prototype_fusion_align_shot_3_seed_11.pt": "b45a3db185c5e56497f14a39232c9ef6e174f3387bb2b8c64447e70607c09aa0",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3_align\\checkpoints\\semantic_prototype_fusion_align_shot_3_seed_23.pt": "3111d6446ac8b5bf04e91f4c7db5a4b028620748e0d1ae106c790005282781a9",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\results\\v3_align\\checkpoints\\semantic_prototype_fusion_align_shot_3_seed_37.pt": "1f4f8969b511243217ff535c6bfc7eec46ec65b3eb8ee536037bd26c7b159b66",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\classifier.py": "d05d73428d0669e55f85fe144c0a53d029767e647e47466fb4fda5e8574d0a67",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\data_loader.py": "38c761ccfa856759d999eb84bedc8b8e1c22b97009f96ffe3db3c38ce88fe360",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\episode_sampler.py": "f08b3bdaaebb08ac715a19349493a729c2faa53b966bde9f514222495b9f56bb",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\evaluate.py": "68b0e2aff8f744e6a35399dfe9edc7e351b316bee1f5a16917dbadcb20e11531",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\gnn_backbone.py": "b89a03eba3358cfcfd312789a2f650f3a8dc47387d75cf316da907633418b2b3",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\graph_augmenter.py": "cd51a122213212a7bd0fd7e2579e10003196cd5e44c6eed9891cfa190a3258d0",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\llm_encoder.py": "9c8b5b90b343f6a74f4afa99ef9102119d4b69149f21e4e8711ba4b298b48d37",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\pretrain_gnn.py": "0be7aeaba454e82bf7d2bbe8c113825334d623d75e0e95e5cf0f25b909ff60f7",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\prompt_builder.py": "f270a9fefcabe5dce6be38a64ce66ec7abeb6202abcdbc57a5ece0cc3032d032",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\revised_experiment.py": "c87d56c4b28404a459d8d70c1b1a9bfc01618241c6facdda161f7155f578e0c8",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\revised_protocol.py": "ce26a5ed937f30c64d63c855c43263382496aa7d51a971127727e058f61eabf5",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\train.py": "1810516180505bf57678fcfbe797cf70bf879c92f9f62a576d95399e785398e0",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\utils.py": "a06116e8d85eda63094710f12430fc4f116b98a467f845b9d28a1f2467b11f90",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\__init__.py": "c935b979e55dc366f6afdc8c387ddf24b1e5ea4bb36c0f41b8f951342e0084c6",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\v2\\prompt_models.py": "c1bfd44541609445c7ed3a9bc758cef25369137ddf1240a45789a1ea6a372863",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\v2\\validation.py": "9e16161987c038b239db3e2436d2980fd7cab1a1b0144ea618d7b03833e8a8a9",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\v2\\__init__.py": "7e1a860c5b4348722eddf8d957842bbb15a4b82bd3f1a1e2e735a3c8bc0db2d9",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\v3\\semantic_prototype_fusion.py": "e12f507a8e2186279c65823488a76fd3f8b29fc4dd5fcb50c8ab701896e2efad",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\v3\\__init__.py": "33923a62c475013549358df6e2b6f2d8c7447e3543e2a38d05c63d413f823b6a",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\v3_align\\alignment_loss.py": "d298d8cd5a5c6f5dd7b3ad8e08875e9c0990f51696a22855400069cd49c938d2",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\src\\v3_align\\__init__.py": "800927d34cbf3b6af5bca18914591bcd6c4105fb7a787151f61fd92eb1343667",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\tests\\test_data.py": "3562e88c43fcf906be837bb5db671d9a412ca4dcad767eb863fae36ae9578c8b",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\tests\\test_gradients.py": "10149cf491b7212318a8d577ee5f64caab956687ca55f7dbf025121376c06918",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\tests\\test_graph.py": "e0ea5e39dc9cad520257dde9a3264742c11eef9ddff3cb1e3e0224201fa5027e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\tests\\test_leakage.py": "405adb9e8ef5cb9e9c3d13bbf8c106b700d237a5fe0a9d6eec00d596dbebde45",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\tests\\test_prompt.py": "38b0ebc6d1a55ce911f4c900094451c015a3bcce266cba0039f5fbeeedefca3b",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\tests\\test_revised_protocol.py": "2ff4253dc4a8c4ba98e65c8e56482c7032f253859e8348c2cd9663e79e956f09",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\tests\\test_revised_training.py": "5213e09fd28ef822821763d88809ca246ab90eda81cabd214f1e064da4ebbd01",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\tests\\test_self_supervised_pretraining.py": "0a597a79189b45e49e9c7e6a757c45a3909c936767d86f984dc85446e1d52ea9",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\tests\\v2\\test_v2_validation.py": "ab7b94f9eef62fe2f61599ebbaeb2382681be7e27a4e8997416350e7a17a3c08",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\tests\\v3\\test_alignment_diagnostics.py": "d16930e0e1786aeeb6bf49316c49cdec6491d6e58b16b560cf7d9eebbcf84603",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\tests\\v3\\test_semantic_prototype_fusion.py": "ca7ba3838f2d06eb16e7417fa1ea597a3672a3e66624da48ef72af31a43b465e",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP\\tests\\v3_align\\test_alignment_loss.py": "eb6456968babd43e859f679863b4d7a309b57581a083c276d49014feee5ff40c",
+    "C:\\Users\\User\\Desktop\\Papers to be submitted\\LLMGPv0.2\\implementation\\LLMGP_v0.2.docx": "cdee2bc49c737eecf677bb0db6197276a621fde52d8a4dd6d9ef0da0c726030d"
+  },
+  "existing_artifacts_unchanged": true,
+  "frozen_parameter_states_unchanged": true,
+  "scibert_state_sha256": "0f280c503127a7b18842d73fa213d650e744a9379dafa5482996481f3ddd7dfa",
+  "episode_manifest_sha256": "809a00113ab8a9262e7179eda06f8a4c881768537325882c82f31ef0225a7917",
+  "runtime_seconds": 615.8419275000051,
+  "device": "cpu",
+  "training_run": false,
+  "tuning_run": false,
+  "test_selection_run": false
+}
